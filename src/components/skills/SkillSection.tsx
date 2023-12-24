@@ -8,14 +8,8 @@ const SkillSection = () => {
   return (
     <div className="skill-section">
       {skills.map((skill, index) => (
-        <div key={index} className="skill-card">
-          <div className="card-face card-face-front">
-            <div className="skill-name">{skill}</div>
-          </div>
-          <div className="card-face card-face-back">
-            {/* You can add more information about the skill here */}
-            <div className="skill-info">More info about {skill}</div>
-          </div>
+        <div key={index} className="skill-box">
+          <div className="skill-name">{skill}</div>
         </div>
       ))}
     </div>
