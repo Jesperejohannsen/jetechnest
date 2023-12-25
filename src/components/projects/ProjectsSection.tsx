@@ -27,6 +27,11 @@ const projects: Project[] = [
   },
 ];
 
+const truncateDescription = (description: string) => {
+  const words = description.split(" ");
+  return words.length > 5 ? `${words.slice(0, 5).join(" ")}...` : description;
+};
+
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
@@ -65,7 +70,7 @@ const ProjectsSection = () => {
           onClick={() => handleCardClick(project)}
         >
           <h3>{project.title}</h3>
-          <p>{project.description}</p>
+          <p>{truncateDescription(project.description)}</p>
           <img src={project.image} alt={project.title} />
         </div>
       ))}
