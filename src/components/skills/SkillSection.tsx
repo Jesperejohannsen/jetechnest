@@ -1,7 +1,15 @@
-import './SkillSection.css';
+import "./SkillSection.css";
 
 const skills = [
-  'MSSQL', 'GraphQL', 'C#', '.NET', 'HTML5', 'CSS3', 'React', 'TypeScript', 'Azure Cloud'
+  "MSSQL",
+  "GraphQL",
+  "C#",
+  ".NET",
+  "HTML5",
+  "CSS3",
+  "React",
+  "TypeScript",
+  "Azure Cloud",
 ];
 
 const SkillSection = () => {

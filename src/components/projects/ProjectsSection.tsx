@@ -11,7 +11,8 @@ type Project = {
 const projects: Project[] = [
   {
     title: "Nerve Signal Generator",
-    description: "Project with my fellow students.",
+    description:
+      "This collaborative endeavor among my peers and me involved the development of a Nerve Signal Generator, a technological apparatus designed to emulate the characteristics of a nerve signal. The generator afforded users the capability to modulate the intensity of the nerve signal, introduce temporal delays, and incorporate white noise, thereby allowing for a nuanced exploration of signal dynamics. The user interface was constructed using a combination of Python for backend functionality, JavaScript for dynamic interactivity, and HTML/CSS for presentation. The resultant program, encapsulating these multifaceted components, was stored within a SQLite database hosted on a Raspberry Pi platform. Notably, the generated nerve signals were visualized and manipulated through a JavaScript-based chart, facilitating user interaction and customization through graphical manipulation of data points within the chart interface..",
     image: NerveSignalPicture,
   },
   {
