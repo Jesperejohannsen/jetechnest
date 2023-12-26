@@ -1,48 +1,17 @@
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background: #f0f0f0;
-  }
-  
-  label {
-    width: 100%;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  input[type="text"], input[type="email"], textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-top: 5px;
-    box-sizing: border-box;
-  }
-  
-  textarea {
-    height: 150px;
-    resize: none;
-  }
-  
-  input[type="submit"] {
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #555;
-    cursor: not-allowed;
-  }
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #ddd;
+}
