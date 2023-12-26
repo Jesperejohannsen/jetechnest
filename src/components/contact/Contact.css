@@ -2,16 +2,25 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   padding: 20px;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .contact a {
   color: #fff;
   transition: color 0.3s ease;
+  margin: 10px;
 }
 
 .contact a:hover {
   color: #ddd;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
 }
