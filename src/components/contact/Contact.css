@@ -26,6 +26,11 @@ form {
     box-sizing: border-box;
   }
   
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  
   input[type="submit"] {
     margin-top: 20px;
     padding: 10px 20px;
@@ -39,8 +44,5 @@ form {
   
   input[type="submit"]:hover {
     background-color: #555;
-  }
-  
-  p {
-    color: #333;
+    cursor: not-allowed;
   }

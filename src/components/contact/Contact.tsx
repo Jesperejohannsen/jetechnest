@@ -58,8 +58,7 @@ const ContactForm = () => {
         <textarea value={message} onChange={handleMessageChange} />
         {errors.message && <p>{errors.message}</p>}
       </label>
-      <p>Word count: {wordCount}/200</p>
-      <input type="submit" value="Submit" />
+      <input type="submit" value="Submit" disabled={!name || !email || !message || wordCount > 200} />
       {isSubmitted && <p>Form submitted successfully!</p>}
     </form>
   );
