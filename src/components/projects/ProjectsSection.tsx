@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./ProjectsSection.css";
 import NerveSignalPicture from "../../assets/nerveSignal.png";
+import ReactivitiesPicture from "../../assets/reactivities.png";
 
 type Project = {
   title: string;
@@ -16,9 +17,9 @@ const projects: Project[] = [
     image: NerveSignalPicture,
   },
   {
-    title: "Project 2",
-    description: "This is a description of Project 2.",
-    image: "url-to-image-2",
+    title: "Social Activity Tracker",
+    description: "The project at hand is a sophisticated Social Activity Tracker that enables users to seamlessly create, manage, and engage in social events. Developed using a technologically diverse stack, including C#, .NET, Identity, Entity Framework, SignalR, AutoMapper, React, Axios, MobX, BrowserRouter, and Semantic UI, the system embodies a microservices architecture for scalability and maintainability. On the backend, C# and .NET provide a robust foundation, Identity ensures secure authentication, Entity Framework streamlines database interactions, and SignalR facilitates real-time communication. AutoMapper optimizes object mapping, enhancing data manipulation efficiency. The frontend, built with React, leverages Axios for API integration, MobX for state management, BrowserRouter for smooth navigation, and Semantic UI for an aesthetically pleasing design. This comprehensive integration of technologies results in a responsive and user-centric platform, exemplifying the effectiveness of a well-rounded technological approach to digital community building",
+    image: ReactivitiesPicture,
   },
   {
     title: "Project 3",
