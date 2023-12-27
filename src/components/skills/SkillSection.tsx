@@ -9,7 +9,7 @@ const SkillSection = () => {
   };
 
   return (
-    <div className="skill-section">
+    <div id="skills" className="skill-section">
       {Object.entries(skills).map(([category, skills], index) => (
         <div key={index} className={`category-box ${category}`}>
           <h3>{category.charAt(0).toUpperCase() + category.slice(1)}</h3>

@@ -7,7 +7,7 @@ const Contact = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <a href="https://github.com/Jesperejohannsen" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
