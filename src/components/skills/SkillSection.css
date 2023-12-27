@@ -1,10 +1,10 @@
-/* SkillSection.css */
-
 .skill-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px;
+  opacity: 0;
+  animation: loadIn 1s forwards;
 }
 
 .skill-box {
@@ -17,22 +17,45 @@
   border-radius: 10px;
   background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
   background-size: 300% 300%;
-  animation: gradient 5s ease infinite;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: gradient 5s ease infinite, domino 1s forwards;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  opacity: 0;
+  border: 2px solid #203a43;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3), 0px 0px 50px rgba(0, 0, 0, 0.3);
+  background-color: #203a43;
 }
 
 .skill-name {
   text-align: center;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
+@keyframes loadIn {
+  to {
+    opacity: 1;
   }
-  50% {
-    background-position: 100% 50%;
+}
+
+@keyframes domino {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
   }
   100% {
-    background-position: 0% 50%;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill-box {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
   }
 }
