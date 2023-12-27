@@ -86,10 +86,3 @@
 .cloud .skill-name {
   color: plum;
 }
-
-@media (max-width: 768px) {
-  .skill-section {
-    flex-direction: column;
-    align-items: center;
-  }
-}
