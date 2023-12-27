@@ -73,8 +73,8 @@
     transform: translateX(0);
   }
   .nav-links a {
-    font-size: 2em; /* Increase the font size */
-    padding: 20px; /* Add some spacing */
+    font-size: 2em; 
+    padding: 20px; 
   }
 }
 
