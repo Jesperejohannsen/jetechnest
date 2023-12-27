@@ -1,5 +1,5 @@
 import "./About.css";
-import profileImage from "../../assets/profilePicture.jpg"; // Import the image
+import profileImage from "../../assets/profilePicture.jpg"; 
 
 const About = () => {
   return (
@@ -12,7 +12,6 @@ const About = () => {
             alt="Profile"
             className="profile-image"
           />{" "}
-          {/* Use the image */}
           <p>
             I am a passionate software developer with a keen interest in clean
             code and clean architecture. I believe that a well-structured and
@@ -25,9 +24,7 @@ const About = () => {
             that comes with finding an elegant solution.
           </p>
           <p>
-            My passion for software development extends beyond my professional
-            life. In my free time, I enjoy contributing to open-source projects
-            and exploring the latest trends in the tech industry.
+          I am very fond and interested in working with cloud technologies. I believe that cloud technologies are a key component of modern software development and I am always looking for opportunities to expand my knowledge in this area.
           </p>
         </section>
       </div>
