@@ -62,7 +62,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <div className="projects-section">
+    <div id="projects" className="projects-section">
       {projects.map((project, index) => (
         <div
           key={index}

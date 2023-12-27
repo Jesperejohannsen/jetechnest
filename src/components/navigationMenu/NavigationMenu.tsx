@@ -1,6 +1,4 @@
-// Navigation.tsx
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 interface NavigationProps {
   isOpen: boolean;
@@ -9,10 +7,10 @@ interface NavigationProps {
 const Navigation: React.FC<NavigationProps> = ({ isOpen }) => (
   <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
     <ul>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/skills">Skills</Link></li>
-      <li><Link to="/projects">Projects</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Technologies</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Socials</a></li>
     </ul>
   </nav>
 );
