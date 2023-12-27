@@ -4,6 +4,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './Contact.css';
 
 const Contact = () => {
+  const currentYear = new Date().getFullYear();
+  
   return (
     <div className="contact">
       <a href="https://github.com/Jesperejohannsen" target="_blank" rel="noopener noreferrer">
@@ -15,6 +17,7 @@ const Contact = () => {
       <a href="mailto:jesperejohannsen@outlook.dk">
         <FontAwesomeIcon icon={faEnvelope} size="2x" />
       </a>
+      <span>© {currentYear} JETechNest</span>
     </div>
   );
 };

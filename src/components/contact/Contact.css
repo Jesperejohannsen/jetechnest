@@ -18,6 +18,13 @@
   color: #ddd;
 }
 
+.contact span {
+  color: #fff;
+  margin: 10px;
+  margin-top: 15px;
+  font-size: large;
+}
+
 @media (max-width: 600px) {
   .contact {
     flex-direction: column;
