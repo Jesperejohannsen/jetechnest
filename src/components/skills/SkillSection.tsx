@@ -3,7 +3,7 @@ import './SkillSection.css';
 const SkillSection = () => {
   const skills = {
     frontend: ["HTML5", "CSS3", "TypeScript", "React"],
-    backend: [".NET", "C#", "GraphQL", "REST"],
+    backend: [".NET", "C#", "Python", "GraphQL", "REST"],
     database: ["MongoDB", "MSSQL", "PostgreSQL", "SQLite"],
     cloud: ["Azure"],
   };
