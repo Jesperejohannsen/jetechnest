@@ -5,7 +5,7 @@ const SkillSection = () => {
     frontend: ["HTML5", "CSS3", "TypeScript", "React"],
     backend: [".NET", "C#", "Python", "GraphQL", "REST"],
     database: ["MongoDB", "MSSQL", "PostgreSQL", "SQLite"],
-    cloud: ["Azure"],
+    technologies: ["Azure", "Docker", "Git", "CI/CD" ],
   };
 
   return (
