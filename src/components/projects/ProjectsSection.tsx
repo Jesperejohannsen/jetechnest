@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./ProjectsSection.css";
 import NerveSignalPicture from "../../assets/nerveSignal.png";
 import ReactivitiesPicture from "../../assets/reactivities.png";
+import KHCustomsPicture from "../../assets/KhCustoms.png";
 
 type Project = {
   title: string;
@@ -23,8 +24,8 @@ const projects: Project[] = [
   },
   {
     title: "Project 3",
-    description: "This is a description of Project 3.",
-    image: "url-to-image-3",
+    description: "I am currently in the process of developing a professional website for my sister's newly established business venture, specializing in custom clearance services. The primary focus of this website is to serve as an informative platform for clients seeking insights into custom rules, regulations, and consultancy services. While the current iteration of the website is designed as an informative platform, there is a consideration for potential expansions in the future. The modular and extensible nature of the codebase, coupled with the use of React, ensures a smooth integration of additional features and functionalities as the business grows.",
+    image: KHCustomsPicture,
   },
 ];
 
@@ -63,6 +64,10 @@ const ProjectsSection = () => {
   };
 
   return (
+    <>
+    <div className="project-overview">
+      <h3>Allow me to share a glimpse into some of the projects I've undertaken during my spare time.</h3>
+    </div>
     <div id="projects" className="projects-section">
       {projects.map((project, index) => (
         <div
@@ -91,6 +96,7 @@ const ProjectsSection = () => {
         </div>
       )}
     </div>
+  </>
   );
 };
 
