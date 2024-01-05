@@ -1,4 +1,4 @@
-import "./gradiantHeader.css";
+import "./GradiantHeader.css";
 
 interface GradiantHeaderProps {
   h3: string;

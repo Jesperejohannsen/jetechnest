@@ -11,7 +11,7 @@ const About = () => {
             src={profileImage}
             alt="Profile"
             className="profile-image"
-          />{" "}
+          />
           <p>
             I am a passionate software developer with a keen interest in clean
             code and clean architecture. I believe that a well-structured and
