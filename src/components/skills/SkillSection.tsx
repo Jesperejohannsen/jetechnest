@@ -1,3 +1,4 @@
+import GradiantHeader from '../gradiantHeader/GradiantHeader';
 import './SkillSection.css';
 
 const SkillSection = () => {
@@ -9,6 +10,8 @@ const SkillSection = () => {
   };
 
   return (
+    <>
+    <GradiantHeader h3="This provides a glimpse into my preferred tech stack and the technologies I enjoy working with" />
     <div id="skills" className="skill-section">
       {Object.entries(skills).map(([category, skills], index) => (
         <div key={index} className={`category-box ${category}`}>
@@ -21,6 +24,7 @@ const SkillSection = () => {
         </div>
       ))}
     </div>
+  </>
   );
 };
 
