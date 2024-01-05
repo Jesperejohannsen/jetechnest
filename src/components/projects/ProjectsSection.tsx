@@ -24,7 +24,7 @@ const projects: Project[] = [
     image: ReactivitiesPicture,
   },
   {
-    title: "Project 3",
+    title: "KH Customs",
     description: "I am currently in the process of developing a professional website for my sister's newly established business venture, specializing in custom clearance services. The primary focus of this website is to serve as an informative platform for clients seeking insights into custom rules, regulations, and consultancy services. While the current iteration of the website is designed as an informative platform, there is a consideration for potential expansions in the future. The modular and extensible nature of the codebase, coupled with the use of React, ensures a smooth integration of additional features and functionalities as the business grows.",
     image: KHCustomsPicture,
   },
