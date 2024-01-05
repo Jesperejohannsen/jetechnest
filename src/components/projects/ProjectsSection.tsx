@@ -3,6 +3,7 @@ import "./ProjectsSection.css";
 import NerveSignalPicture from "../../assets/nerveSignal.png";
 import ReactivitiesPicture from "../../assets/reactivities.png";
 import KHCustomsPicture from "../../assets/KhCustoms.png";
+import GradiantHeader from "../gradiantHeader/GradiantHeader";
 
 type Project = {
   title: string;
@@ -65,9 +66,7 @@ const ProjectsSection = () => {
 
   return (
     <>
-    <div className="project-overview">
-      <h3>Allow me to share a glimpse into some of the projects I've undertaken during my spare time.</h3>
-    </div>
+    <GradiantHeader h3="Allow me to share a glimpse into some of the projects I've undertaken during my spare time."/>   
     <div id="projects" className="projects-section">
       {projects.map((project, index) => (
         <div
