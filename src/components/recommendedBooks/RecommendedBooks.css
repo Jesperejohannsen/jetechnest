@@ -1,0 +1,30 @@
+.recommended-books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .book {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .book img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .book a {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+
+
+.headerSectionBookSelection{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
