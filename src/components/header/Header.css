@@ -15,8 +15,17 @@
   font-size: 1.5em;
 }
 
+.icon-group {
+  display: flex;
+  gap: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
+  }
+
+  .icon-group {
+    margin-top: 20px;
   }
 }
