@@ -38,7 +38,7 @@ const About = () => {
               expand my knowledge in this area.
             </p>
             <p>
-              Feel free to reach out to me on mail or my Linkedin at the bottom
+              Feel free to reach out to me on mail or my Linkedin at the top and bottom
               of the page.
             </p>
           </div>
