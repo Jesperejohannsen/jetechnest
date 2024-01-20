@@ -4,6 +4,7 @@ import CleanCodeImage from "../../assets/cleanCode.jpg";
 import CleanArchitectureImage from "../../assets/cleanArchitecture.jpg";
 import ModernSoftwareEngineering from "../../assets/modernSoftwareEngineering.jpg";
 import UMLBook from "../../assets/UMLBook.jpg";
+import GradiantHeader from "../gradiantHeader/GradiantHeader";
 
 interface Book {
   title: string;
@@ -43,9 +44,7 @@ const RecommendedBooks = () => {
   return (
     <>
       <div className="headerSectionBookSelection">
-        <h3>
-          Here is some of my favorite books within the world of software.
-        </h3>
+        <GradiantHeader h3="Here are some books that I recommend within the world of software." />
       </div>
       <div className="recommended-books">
         {books.map((book, index) => (
