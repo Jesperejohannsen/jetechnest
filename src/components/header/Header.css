@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: linear-gradient(to right, #022c43, #053f5e, #115173);
+  background: #000 url("../../assets/stardust.png");
   position: static;
   width: 100%;
   z-index: 1000;

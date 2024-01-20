@@ -15,6 +15,7 @@
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+  background: #000 url("../../assets/stardust.png");
 }
 
 .category-box {
@@ -26,7 +27,7 @@
   align-items: center;
   width: 200px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 5px rgba(133, 130, 130, 0.918);
   border-radius: 10px;
 }
 

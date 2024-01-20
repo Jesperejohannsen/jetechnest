@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background: #000 url("../../assets/stardust.png");
   }
   
   .book {
@@ -18,7 +19,7 @@
   .book a {
     display: block;
     margin-top: 10px;
-    color: #333;
+    color: #adadad;
     text-decoration: none;
   }
 
@@ -27,4 +28,12 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.headerSectionBookSelection h3{
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    background: #000 url("../../assets/stardust.png");
 }

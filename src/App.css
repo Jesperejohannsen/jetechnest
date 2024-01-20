@@ -1,15 +1,3 @@
-.nav-links {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.2em;
-}
-
-.nav-links a:hover {
-  color: #007BFF;
+* {
+  background: #000 url("../../assets/stardust.png");
 }

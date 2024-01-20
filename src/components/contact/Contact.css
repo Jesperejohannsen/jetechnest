@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  background: linear-gradient(to right, #022c43, #053f5e, #115173);
+  background: #000 url("../../assets/stardust.png");
   padding: 20px;
   border-radius: 10px;
   flex-wrap: wrap;

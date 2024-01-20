@@ -8,7 +8,7 @@
 }
 
 .about {
-  background: linear-gradient(to right, #022c43, #053f5e, #115173);
+  background: #000 url("../../assets/stardust.png");
   color: #fff;
   padding: 20px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
